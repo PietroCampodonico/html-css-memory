@@ -60,8 +60,31 @@ header > h1 {
 .item-container > span {
     position: relative;
     top: 75%;   /* transform: translate(-50%, -5%); */
-    color: palevioletred;
     font-size: 25px;
+}
+
+.row > .item .baloon {
+    color:palevioletred;
+}
+
+.row > .item .tractor {
+    color: orange;
+}
+
+.row > .item .bicycle {
+    color: royalblue;
+}
+
+.row > .item .ship {
+    color: rgb(102, 47, 102);
+}
+
+.row > .item .submarine {
+    color: red;
+}
+
+.row > .item .tram {
+    color: green;
 }
 
 /* So che ha così facendo appesantisco sia l'html che il css, ma volevo sperimentare con la proprietà */
