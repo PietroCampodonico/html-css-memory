@@ -47,6 +47,11 @@ header > h1 {
     background-color: white;
     border-radius: inherit;
     text-align: center;
+    display: none;
+}
+
+.item:hover > .item-container {
+    display: block;
 }
 
 .item-container > img {
