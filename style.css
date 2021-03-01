@@ -13,9 +13,11 @@ body {
 }
 
 .wrapper {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
+
+/* HEADER */
 
 header > h1 {
     color: white;
@@ -25,10 +27,12 @@ header > h1 {
     font-size: 50px;
 }
 
+/* MAIN */
+
 .row > .item {
     margin: 20px;
     width: calc(100% / 4 - 40px);
-    height: 220px;
+    height: 225px;
     background-image: url(img/pattern.png);
     background-size: contain;
     float: left;
@@ -64,9 +68,11 @@ header > h1 {
 
 .item-container > span {
     position: relative;
-    top: 75%;   /* transform: translate(-50%, -5%); */
+    top: 75%;    
     font-size: 25px;
 }
+
+/* COLORI FONT TESSERE*/
 
 .row > .item .baloon {
     color:palevioletred;
