@@ -17,19 +17,43 @@ header > h1 {
     color: white;
     text-transform: uppercase;
     text-align: center;
+    margin: 20px 0;
 }
 
 .row > .item {
-    width: 25%;
-    height: 250px;
+    margin: 20px;
+    width: calc(100% / 4 - 40px);
+    height: 220px;
     background-image: url(img/pattern.png);
     background-size: contain;
     float: left;
-    border: 1px solid black;
+    border-radius: 20px;
 }
 
 .row::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.item-container {
+    height: 100%;
+    background-color: white;
+    border-radius: inherit;
+}
+
+img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* So che ha così facendo appesantisco sia l'html che il css, ma volevo sperimentare con la proprietà */
+
+footer {
+    text-align: center;
+}
+
+footer > span:last-child{
+    text-transform: capitalize;
 }
