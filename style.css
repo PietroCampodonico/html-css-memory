@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Potta One', cursive;
+}
+
 body {
     background-color: lightblue;
 }
@@ -17,7 +21,8 @@ header > h1 {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
+    font-size: 50px;
 }
 
 .row > .item {
@@ -37,15 +42,26 @@ header > h1 {
 }
 
 .item-container {
+    position: relative;
     height: 100%;
     background-color: white;
     border-radius: inherit;
+    text-align: center;
 }
 
-img {
-    height: 100%;
-    object-fit: contain;
-    object-position: center;
+.item-container > img {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    height: 70%;
+}
+
+.item-container > span {
+    position: relative;
+    top: 75%;   /* transform: translate(-50%, -5%); */
+    color: palevioletred;
+    font-size: 25px;
 }
 
 /* So che ha così facendo appesantisco sia l'html che il css, ma volevo sperimentare con la proprietà */
