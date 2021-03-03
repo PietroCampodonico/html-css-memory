@@ -54,6 +54,10 @@ header > h1 {
     display: none;
 }
 
+#revealed {
+    display: block;
+}
+
 .item:hover > .item-container {
     display: block;
 }
